@@ -9,8 +9,8 @@ Joust
 
 Developers:
 Tom Cowan - @KayakTom
-Ben Sanger
-Matthew Oulton
+Ben Sanger - @ItsIncanto
+Matthew Oulton - @MatthewOultonGit
 Ali
 Lewis Muscroft
 Jack Robertson
