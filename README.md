@@ -14,3 +14,5 @@ Developers:
 - Ali - @Adan-Ali-Bukhari
 - Lewis Muscroft
 - Jack Robertson
+
+Note: Please checkout Conventions.md before programming anything and follow those conventions to make life easy for everybody!
