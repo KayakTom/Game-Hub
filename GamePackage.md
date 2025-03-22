@@ -1,4 +1,5 @@
-GamePackage (ItsIncanto)
+# GamePackage
+Developers: @ItsIncanto, @KayakTom 
  - Features 
     - FPS
         - SetFps
