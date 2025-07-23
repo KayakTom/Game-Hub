@@ -1,9 +1,9 @@
 package Main_Menu;
 
-import Libraries.GameArena;
-
 import java.awt.*;
 import javax.swing.*;
+
+import Libraries.GameArena.GameArena;
 
 public class Menu {
     // Gets the user screen dimensions (height and width)
