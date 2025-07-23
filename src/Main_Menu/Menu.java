@@ -1,3 +1,7 @@
+package Main_Menu;
+
+import Libraries.GameArena;
+
 import java.awt.*;
 import javax.swing.*;
 
@@ -11,6 +15,8 @@ public class Menu {
     private JPanel menu;
     private SpringLayout layout;
 
+    private GameArena mainMenu = new GameArena(windowWidth, windowHeight, false);
+
 
     public Menu(){
         // Initialises the game hub menu
@@ -22,5 +28,11 @@ public class Menu {
         this.Window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         this.Window.setResizable(false); // Temporary until we get everything adaptable to the screen size
+    }
+
+    public void loadMenu(){
+        this.mainMenu.setBackgroundImage("Images/gameHubBackground.png");
+
+        this.Window.add(this.menu);
     }
 }
