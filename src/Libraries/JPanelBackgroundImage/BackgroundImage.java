@@ -6,9 +6,8 @@ import java.awt.*;
 public class BackgroundImage extends JPanel{
 
     private Image image;
-    private String backgroundImage = "/Images/background.jpg";
 
-    public BackgroundImage(){
+    public BackgroundImage(String backgroundImage){
         try{
             image = javax.imageio.ImageIO.read(getClass().getResource(backgroundImage));
         }
