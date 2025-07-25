@@ -12,7 +12,7 @@ public class BackgroundImage extends JPanel{
             image = javax.imageio.ImageIO.read(getClass().getResource(backgroundImage));
         }
         catch (Exception e){
-
+            System.out.println("Failed to load background image: " + e.getMessage());
         }
     }
     @Override
