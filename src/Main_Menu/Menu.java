@@ -13,7 +13,7 @@ public class Menu {
 
     private JFrame Window;
     private SpringLayout layout = new SpringLayout();
-    private BackgroundImage menu = new BackgroundImage("/Images/Game Hub Background.jpg");
+    private BackgroundImage menu = new BackgroundImage("/Images/Game Hub.png");
 
     public Menu(){
         // Initialises the game hub menu
