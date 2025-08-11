@@ -13,7 +13,7 @@ public class Menu implements ActionListener {
     private SpringLayout layout = new SpringLayout();
     private BackgroundImage menu = new BackgroundImage("/Images/Game Hub.png");
     private Icon playButtonImage = new ImageIcon(getClass().getResource("/Images/PLAY.png"));
-
+    
     private JButton playButton = new JButton();
 
     public Menu(JFrame Window, int width, int height) {
